@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 10px 5px silver;
+}
+h1{
+    text-align: center;
+    font-size: 15pt;
+    font-family: arial;
+}
+div{
+    text-align: center;
+}
+div img{
+    width: 60vw;
+    height: 50vh;
+    transition: ease 1s;
+}
+div img:hover{
+    z-index: 100000;
+    width: 70vw;
+    height: 60vh;
+    opacity: 1;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
